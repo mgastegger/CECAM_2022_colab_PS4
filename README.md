@@ -5,7 +5,15 @@ This tutorial shows how train and deploy machine learning models of potential en
 You can either run the colab version (`CECAM_tutorial.ipynb`) or a local version.
 The colab version requires a Google account, the local version additional setup.
 
-## Running the local version
+The tutorial covers the following steps:
+
+*   Preparing a dataset suitable for training a machine learning potential with SchNetPack.
+*   Setting up a PaiNN [1] model for predicting energies and forces of a molecule.
+*   Preparing the training infrastructure and training and validating the model.
+*   Using the trained model for predictions (geometry optimization and frequency calculations with [ASE](https://wiki.fysik.dtu.dk/ase/) , as well as molecular dynamics simulations with SchNetPack).
+
+
+### Running the local version
 
 First, open a terminal and then create and activate a new conda environment `cecam`. First, create a new environment:
 ```
@@ -42,15 +50,6 @@ To run the notebook, simply start jupyter
 jupyter notebook
 ```
 and select `CECAM_tutorial_local.ipynb` in the browser.
-
-
-
-The tutorial covers the following steps:
-
-*   Preparing a dataset suitable for training a machine learning potential with SchNetPack.
-*   Setting up a PaiNN [1] model for predicting energies and forces of a molecule.
-*   Preparing the training infrastructure and training and validating the model.
-*   Using the trained model for predictions (geometry optimization and frequency calculations with [ASE](https://wiki.fysik.dtu.dk/ase/) , as well as molecular dynamics simulations with SchNetPack).
 
 ## References
 
