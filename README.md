@@ -1,6 +1,6 @@
 # Tutorial for CECAM workshop Machine Learning and Quantum Computing for Quantum Molecular Dynamics (PS4)
 
-This tutorial shows how train and deploy machine learning models of potential energy surfaces with [SchNetPack](https://https://github.com/atomistic-machine-learning/schnetpack).
+This tutorial shows how train and deploy machine learning models of potential energy surfaces with [SchNetPack](https://github.com/atomistic-machine-learning/schnetpack).
 
 You can either run the colab version (`CECAM_tutorial.ipynb`) or a local version.
 The colab version requires a Google account, the local version additional setup.
