@@ -17,7 +17,7 @@ The tutorial covers the following steps:
 
 First, open a terminal and then create and activate a new conda environment `cecam`. First, create a new environment:
 ```
-conda create --name cecam python=3.7 -y
+conda create --name cecam_PS4 python=3.7 -y
 ```
 Then, type
 ```
@@ -27,7 +27,7 @@ and close and reopen your terminal.
 
 Now activate the environment with
 ```
-conda activate cecam
+conda activate cecam_PS4
 ```
 
 Then pull the git repository of this tutorial 
